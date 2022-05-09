@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Manaus</title>
+  
+  <link rel="stylesheet" href="style.css">
+  <!--link do bootstrap css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+</head>
+<body>
+  
+    <!--Menu Lateral-->
+    <nav class="navbar navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">GUIA MANAUS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">CAMPOS</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html" target="blank">PAGINA INICIAL</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cronograma.html" target="blank">Cronograma</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Paginas
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                  <li><a class="dropdown-item" href="passeios.html" target="blank">Passeios</a></li>
+                  <li><a class="dropdown-item" href="restaurantes.html" target="blank">restaurantes</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="pontos.html"target="blank">Pontos Turísticos</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit" >Pesquisa</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container">
+  <!--Carrosel-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/passeios.jpg" height="400" width="400" class="d-block w-100" alt="Passeios">
+      </div>
+      <div class="carousel-item">
+        <img src="img/restaurantes.jpg" height="400" width="400" height="350" width="350" class="d-block w-100" alt="Restaurantes">
+      </div>
+      <div class="carousel-item">
+        <img src="img/pontos-turisticos.jpg" height="400" width="400" class="d-block w-100" alt="Pontos Turísticos">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div><br><br><br>
+  <!--imagem de barriga-->
+  <!-- Gallery -->
+<div class="row">
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+  
+    <img
+      src="img/passeios.jpg"
+      class="w-100 h-75 shadow-1-strong rounded mb-4"
+      alt="Pontos Turísticos"
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="img/restaurantes.jpg"
+      class="w-100 h-75 shadow-1-strong rounded mb-4"
+      alt="Restaurantes"
+    
+    />
+
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="img/pontos-turisticos.jpg"
+      class="w-100 h-75 shadow-1-strong rounded mb-4"
+      alt="Pontos Turísticos"
+    />
+  </div>
+</div>
+<!-- Gallery -->
+  <!--rodape para se personalizado-->
+  
+<footer class="text-center text-lg-start text-muted">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+    <!-- esquerda -->
+   
+    <!-- esquerda -->
+    <div class="redes-sociais">
+    <div >
+      <span>Sigamos nas redes sociais:</span>
+    </div>
+
+    <!-- direita -->
+    <div class="iconesrs">
+      <a href="https://www.facebook.com" target="blank" class="me-4 text-reset">
+       <img src="img/facebook.svg" alt="">
+       <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.twitter.com" target="blank" class="me-4 text-reset">
+        <img src="img/twitter.svg" alt="">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.telegram.com" target="blank"  class="me-4 text-reset">
+        <img src="img/telegram.svg" alt="">
+        <i class="fab fa-telegram"></i>
+      </a>
+      <a href="https>://www.instagram.com"target="blank"  class="me-4 text-reset">
+        <img src="img/instagram.svg" alt="">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com" target="blank"  class="me-4 text-reset">
+        <img src="img/linkedin.svg" alt="">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://wwww.github.com" target="blank" class="me-4 text-reset">
+        <img src="img/github.svg" alt="">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </div>
+    <!-- direita -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="xnome">
+    <div class="ynome">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>GUIA MANAUS 
+          </h6>
+          <p>
+          O intuito da criação do <b>Guia Manaura</b> é que descoberta de novos passeios, restaurantes e pontos turísticos. Direcionado aos moradores da região e visitantes.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Produtos
+          </h6>
+          <p>
+            <a href="passeios.html" class="text-reset" target="blank">Passeios</a>
+          </p>
+          <p>
+            <a href="restaurantes.html" class="text-reset" target="blank">Restaurantes</a>
+          </p>
+          <p>
+            <a href="pontos.html" class="text-reset" target="blank">Pontos Turisticos</a>
+          </p>
+          <p>
+            <a href="cronograma.html" class="text-reset" target="blank">Cronograma</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Links Importantes
+          </h6>
+          <p>
+            <a href="http://www.amazonastur.am.gov.br/delegacia-especializada-em-crimes-contra-o-turista-completa-15-anos class="text-reset">Amazonas Turismo</a>
+            
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Policia</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Bombeiros</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">SAMU</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contatos
+          </h6>
+          <p><i class="fas fa-home me-3"></i>Manaus, AM 000000, BR</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            guiamanaura@guiaam.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 55 92 0000</p>
+          <p><i class="fas fa-print me-3"></i> + 55 92 0000</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(21, 94, 82, 0.163);">
+    © 2022 Copyright: Todos os direitos reservados.
+    <a class="text-reset fw-bold" href="https://luihzamarques.com">LuihzaMarques.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+  
+  <!--link para a pagina javascript-->
+<script src="arquivo.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
