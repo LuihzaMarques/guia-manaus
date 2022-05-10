@@ -4,15 +4,26 @@
 
 .redes-sociais{
     display:flex;
- 
-
+    margin-top: 5px;
 }
 
-.iconesrs {
-    margin-left: 220px;
+.social-icons{
+    width: 25px;
+    margin: 0 15px 0 15px;
 
 }
+.social-links{
+ text-decoration: none;
+}
 
+.redes-titulo{
+    margin-bottom: 20px;
+    text-align: center;
+    font-style:italic;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
 .container-passeios{
     background-image: url(img/passeios.jpg);
     background-size: cover;
@@ -22,6 +33,11 @@
 }
 .ynome{
     padding: 50px;
-
-
 }
+
+.link-link{
+    text-decoration: none;
+    color:gray;
+}
+
+
