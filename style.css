@@ -116,6 +116,8 @@ text-decoration: none;
 
 
 /*STYLE PAGINA PONTOS TURISTICOS*/
+
+
 .container-pontos{
   margin: 15% 10% 20% 10%;
 }
@@ -127,7 +129,6 @@ text-decoration: none;
   width: 60%;
   height: 40rem; /*ajusta o tamanho do card*/
   border-style: ridge;
- 
 }
 
 .maps{
@@ -141,7 +142,6 @@ text-decoration: none;
   text-align: center;
   padding: 5px;
   width: 100%;
-  
 }
 
 .volta{
@@ -154,4 +154,11 @@ text-decoration: none;
 .container-cad{
 text-align: center;
 margin: 10% 15% 15% 15%;
+}
+
+/*STYLE PAGINA RESTAURANTE*/
+.containerRest{
+  width: 10%;
+  height: 10%;
+  margin-top: 10%;
 }
